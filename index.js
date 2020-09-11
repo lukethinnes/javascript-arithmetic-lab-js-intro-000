@@ -1,7 +1,20 @@
-function add() {}
-function subtract() {}
-function multiply() {}
-function divide() {}
+function add(a, b) {
+  var number = (a += b);
+  return('number');
+}
+function subtract(a, b) {
+  var number = (a -= b);
+  return('number');
+
+}
+function multiply(a, b) {
+  var number = (a *= b);
+  return ('number');
+}
+function divide(a, b) {
+  var number = (a /= b);
+  return ('number');
+}
 
 function makeInt(string) {
   parseInt('string', 10);
