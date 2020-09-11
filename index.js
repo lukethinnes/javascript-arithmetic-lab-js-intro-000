@@ -29,11 +29,11 @@ function decrement(n) {
 }
 
 function makeInt(n) {
-  function parseInt("n", 10);
+  parseInt("n", 10);
   return (n);
 }
 
 function preserveDecimal(n) {
-  function parseFloat("n");
+  parseFloat("n");
   return (n);
 }
