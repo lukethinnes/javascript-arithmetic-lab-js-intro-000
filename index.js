@@ -1,26 +1,26 @@
 function add(a, b) {
-  a += b;
-  return('number');
+  var x = a + b;
+  return('x');
 }
 function subtract(a, b) {
-  a -= b;
-  return('number');
+  var x = a - b;
+  return('x');
 }
 function multiply(a, b) {
-  a *= b;
-  return ('number');
+  var x = a * b;
+  return ('x');
 }
 function divide(a, b) {
-  a /= b;
-  return ('number');
+  var x = a / b;
+  return ('x');
 }
 
 function makeInt(string) {
   parseInt('string', 10);
-  return 'string';
+  return parseInt();
 }
 
 function preserveDecimal(string) {
   parseFloat('string');
-  return 'string';
+  return parseFloat();
 }
